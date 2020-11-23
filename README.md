@@ -12,7 +12,7 @@
   python demo.py -m path/to/model -i demo/উত্তরাধিকার_82.jpg
   ```
 
-   ![demo](https://raw.githubusercontent.com/Holmeyoung/crnn_pytorch/master/demo/demo.jpg)
+   ![demo](https://raw.githubusercontent.com/ShadmanRohan/ocr-bengali-crnn/master/demo/%E0%A6%89%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A6%BE%E0%A6%A7%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%B0_82.jpg)
 
   Expected output
 
