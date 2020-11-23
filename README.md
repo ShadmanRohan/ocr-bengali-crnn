@@ -30,39 +30,27 @@
 
    `label_number.jpg` 
 
-   For example
+   For example:
 
    - English
-
    ```sh
    hi_0.jpg hello_1.jpg English_2.jpg English_3.jpg E n g l i s h_4.jpg...
    ```
-
-   - Chinese
-
+   - Bengali
    ```sh
         উত্তরাধিকার_82.jpg দেশপ্রেমের_70.jpg দেশের_13.jpg ধূলিকণায়_16.jpg বিশাল_6.jpg ...
    ```
-
    The numbers are used to distinguish the same labels.
-
-
 
 2. Run the `create_dataset.py` in `tool` folder by
 
    ```sh
    python tool/create_dataset.py --out lmdb/data/output/path --folder path/to/folder
-   ```
-
-   
+   ``` 
 
 3. Use the same step to create train and val data.
 
-
-
 4. The advantage of the folder mode is that it's convenient! But due to some illegal character can't be in the path
-
-    ![Illegal character](https://raw.githubusercontent.com/Holmeyoung/crnn_pytorch/master/demo/illegal_character.png)
 
    So the disadvantage of the folder mode is that it's labels are limited. 
 
