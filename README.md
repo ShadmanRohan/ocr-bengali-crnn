@@ -3,6 +3,10 @@
 * The images folder contain all the cropped images and preprocessing descriptions
 * train.ipynb contains the scripts. Currently its a bit unreadable... will refactor later.
 
+## TODOs
+* recover around 1000 images!!! wasted during preprocessing
+* this was trained using raw images... should try training it using processed images(they look better in quality)
+
 ## Run demo
 
 - Use the weights expr/FinalnetCRNN_249_105.pth
@@ -122,12 +126,11 @@ Run `train.py` by
 python train.py --trainroot path/to/train/dataset --valroot path/to/val/dataset
 ```
 
-## Dependence
+## Dependency
 
 - Python3.6.5
 - torch==1.2.0
 - torchvision==0.4.0
-
 
 ## Reference
 
@@ -135,3 +138,4 @@ python train.py --trainroot path/to/train/dataset --valroot path/to/val/dataset
 
 [Sierkinhane/crnn_chinese_characters_rec](<https://github.com/Sierkinhane/crnn_chinese_characters_rec>)
 
+[Holmeyoung/crnn-pytorch](<https://github.com/Holmeyoung/crnn-pytorch>)
