@@ -1,6 +1,7 @@
 # Convolutional Recurrent Neural Network + CTCLoss 
 
-## The images folder contain all the cropped images and scripts  
+* The images folder contain all the cropped images and preprocessing descriptions
+* train.ipynb contains the scripts. Currently its a bit unreadable... will refactor later.
 
 ## Run demo
 
@@ -9,10 +10,10 @@
 - Run demo
 
   ```sh
-  python demo.py -m path/to/model -i demo/উত্তরাধিকার_82.jpg
+  python demo.py -m path/to/model/expr/FinalnetCRNN_249_105.pth -i demo/উত্তরাধিকার_82.jpg
   ```
 
-   ![demo](https://raw.githubusercontent.com/ShadmanRohan/ocr-bengali-crnn/master/demo/%E0%A6%89%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A6%BE%E0%A6%A7%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%B0_82.jpg)
+   ![demo](https://raw.githubusercontent.com/ShadmanRohan/ocr-bengali-crnn/master/demo/%E0%A6%89%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A6%BE%E0%A6%A7%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%B0_82.jpg =300*){:height="200px" width="70px"}
 
   Expected output
 
